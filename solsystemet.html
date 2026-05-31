@@ -1,30 +1,258 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="no">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">2 / 2
-    <link rel="stylesheet" href="./style-solsystem.css">
-</head>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solsystemet</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style-solsystem.css">
+</head> 
 <body>
-    <nav>
-        <div class="container">
-            <div class="logo"><img src="./media/logo.png" alt=""></div>
-            <ul>
-                <li><a href="./index.html">Hjem</a></li>
-                <li><a href="./solsystemet.html">solsystemet</a></li>
-                <li><a href="./svart-hull.html">Svarte hull</a></li>
-            </ul>
+
+<nav>
+  <div class="container">
+    <a class="logo" href="./index.html">Universet</a>
+    <ul class="nav-links">
+      <li><a href="./solsystemet.html">SOLSYSTEMET</a></li>
+      <li><a href="./svart-hull.html">SVARTE HULL</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="page-label">UTFORSKNING</div>
+  <h1 class="hero-title">Solsystemet</h1>
+  <p class="hero-text">Solsystemet består av solen og alle objektene som kretser rundt den. Klikk på en planet for å lære mer om den.</p>
+</section>
+
+
+<section class="orbit-section">
+
+ 
+  <div class="sun-row">
+    <div class="planet-card sun-card">
+      <div class="planet-img-wrap">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg/1024px-The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg" alt="Solen">
+      </div>
+      <p class="planet-name">Solen</p>
+    </div>
+  </div>
+
+  
+  <div class="fact-panel" id="solen">
+    <div class="fact-panel-inner">
+      <img class="fact-panel-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg/1024px-The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg" alt="Solen">
+      <div class="fact-content">
+        <h2 class="fact-planet-name">Solen</h2>
+        <p class="fact-desc">Solen er stjernen i sentrum av solsystemet. Den er en nesten perfekt ball av varm plasma, oppvarmet av kjernefysiske fusjonsreaksjoner i kjernen. Solen stråler energi som lys, ultrafiolett stråling og infrarød stråling.</p>
+        <div class="fact-stats">
+          <div class="stat-chip"><span>4,6 milliarder år</span>Alder</div>
+          <div class="stat-chip"><span>5 500 °C</span>Overflatetemperatur</div>
+          <div class="stat-chip"><span>1 392 700 km</span>Diameter</div>
+          <div class="stat-chip"><span>Gul dvergstjerne</span>Type</div>
         </div>
-    </nav>
+      </div>
+    </div>
+  </div>
 
+  <div class="fact-panel" id="merkur">
+    <div class="fact-panel-inner">
+      <img class="fact-panel-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Mercury_in_true_color.jpg/600px-Mercury_in_true_color.jpg" alt="Merkur">
+      <div class="fact-content">
+        <h2 class="fact-planet-name">Merkur</h2>
+        <p class="fact-desc">Merkur er den minste planeten i solsystemet og den nærmeste til solen. Den har nesten ingen atmosfære, noe som fører til ekstreme temperaturforskjeller – fra -180 °C om natten til 430 °C på dagsiden.</p>
+        <div class="fact-stats">
+          <div class="stat-chip"><span>57,9 mill. km</span>Avstand fra solen</div>
+          <div class="stat-chip"><span>88 jorddager</span>Omløpstid</div>
+          <div class="stat-chip"><span>4 879 km</span>Diameter</div>
+          <div class="stat-chip"><span>0</span>Måner</div>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <div class="fact-panel" id="venus">
+    <div class="fact-panel-inner">
+      <img class="fact-panel-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Venus-real_color.jpg/600px-Venus-real_color.jpg" alt="Venus">
+      <div class="fact-content">
+        <h2 class="fact-planet-name">Venus</h2>
+        <p class="fact-desc">Venus er den andre planeten fra solen og den heteste i solsystemet. Dens tykke atmosfære av karbondioksid skaper en ekstrem drivhuseffekt med temperaturer på rundt 465 °C.</p>
+        <div class="fact-stats">
+          <div class="stat-chip"><span>108,2 mill. km</span>Avstand fra solen</div>
+          <div class="stat-chip"><span>225 jorddager</span>Omløpstid</div>
+          <div class="stat-chip"><span>12 104 km</span>Diameter</div>
+          <div class="stat-chip"><span>0</span>Måner</div>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <div class="fact-panel" id="jorden">
+    <div class="fact-panel-inner">
+      <img class="fact-panel-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/600px-The_Earth_seen_from_Apollo_17.jpg" alt="Jorden">
+      <div class="fact-content">
+        <h2 class="fact-planet-name">Jorden</h2>
+        <p class="fact-desc">Jorden er den tredje planeten fra solen og det eneste kjente stedet i universet med liv. Den har en tynn atmosfære, flytende vann på overflaten og et magnetfelt som skjermer mot solvinden.</p>
+        <div class="fact-stats">
+          <div class="stat-chip"><span>149,6 mill. km</span>Avstand fra solen</div>
+          <div class="stat-chip"><span>365,25 dager</span>Omløpstid</div>
+          <div class="stat-chip"><span>12 742 km</span>Diameter</div>
+          <div class="stat-chip"><span>1</span>Måner</div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    
+  <div class="fact-panel" id="mars">
+    <div class="fact-panel-inner">
+      <img class="fact-panel-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OSIRIS_Mars_true_color.jpg/600px-OSIRIS_Mars_true_color.jpg" alt="Mars">
+      <div class="fact-content">
+        <h2 class="fact-planet-name">Mars</h2>
+        <p class="fact-desc">Mars kalles den røde planeten på grunn av jernoksid på overflaten. Den har den høyeste vulkanen i solsystemet, Olympus Mons, og er et prioritert mål for fremtidig menneskelig utforskning.</p>
+        <div class="fact-stats">
+          <div class="stat-chip"><span>227,9 mill. km</span>Avstand fra solen</div>
+          <div class="stat-chip"><span>687 jorddager</span>Omløpstid</div>
+          <div class="stat-chip"><span>6 779 km</span>Diameter</div>
+          <div class="stat-chip"><span>2</span>Måner</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="fact-panel" id="jupiter">
+    <div class="fact-panel-inner">
+      <img class="fact-panel-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg/600px-Jupiter_and_its_shrunken_Great_Red_Spot.jpg" alt="Jupiter">
+      <div class="fact-content">
+        <h2 class="fact-planet-name">Jupiter</h2>
+        <p class="fact-desc">Jupiter er den største planeten i solsystemet – så stor at alle de andre planetene ville fått plass inni den. Den er kjent for den store røde flekken, en storm som har rast i over 350 år.</p>
+        <div class="fact-stats">
+          <div class="stat-chip"><span>778,5 mill. km</span>Avstand fra solen</div>
+          <div class="stat-chip"><span>12 år</span>Omløpstid</div>
+          <div class="stat-chip"><span>139 820 km</span>Diameter</div>
+          <div class="stat-chip"><span>95</span>Måner</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="fact-panel" id="saturn">
+    <div class="fact-panel-inner">
+      <img class="fact-panel-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/600px-Saturn_during_Equinox.jpg" alt="Saturn">
+      <div class="fact-content">
+        <h2 class="fact-planet-name">Saturn</h2>
+        <p class="fact-desc">Saturn er kjent for sitt spektakulære ringsystem av is og steinpartikler. Den er den eneste planeten i solsystemet som er lettere enn vann – den ville flydd i et stort nok hav.</p>
+        <div class="fact-stats">
+          <div class="stat-chip"><span>1,43 mrd. km</span>Avstand fra solen</div>
+          <div class="stat-chip"><span>29,5 år</span>Omløpstid</div>
+          <div class="stat-chip"><span>116 460 km</span>Diameter</div>
+          <div class="stat-chip"><span>146</span>Måner</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="fact-panel" id="uranus">
+    <div class="fact-panel-inner">
+      <img class="fact-panel-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Uranus2.jpg/600px-Uranus2.jpg" alt="Uranus">
+      <div class="fact-content">
+        <h2 class="fact-planet-name">Uranus</h2>
+        <p class="fact-desc">Uranus er en iskjempe som roterer på siden med en aksehelling på 98 grader. Det betyr at polene opplever 42 år med kontinuerlig dagslys etterfulgt av 42 år med mørke.</p>
+        <div class="fact-stats">
+          <div class="stat-chip"><span>2,87 mrd. km</span>Avstand fra solen</div>
+          <div class="stat-chip"><span>84 år</span>Omløpstid</div>
+          <div class="stat-chip"><span>50 724 km</span>Diameter</div>
+          <div class="stat-chip"><span>28</span>Måner</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="fact-panel" id="neptun">
+    <div class="fact-panel-inner">
+      <img class="fact-panel-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg/600px-Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg" alt="Neptun">
+      <div class="fact-content">
+        <h2 class="fact-planet-name">Neptun</h2>
+        <p class="fact-desc">Neptun er den ytterste planeten med de kraftigste vindene i solsystemet – opptil 2 100 km/t. Den ble oppdaget i 1846 gjennom matematiske beregninger, ikke teleskopobservasjoner.</p>
+        <div class="fact-stats">
+          <div class="stat-chip"><span>4,50 mrd. km</span>Avstand fra solen</div>
+          <div class="stat-chip"><span>165 år</span>Omløpstid</div>
+          <div class="stat-chip"><span>49 244 km</span>Diameter</div>
+          <div class="stat-chip"><span>16</span>Måner</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PLANET GRID -->
+  <div class="planet-grid">
+
+    <div class="planet-card" id="btn-merkur">
+      <div class="planet-img-wrap"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Mercury_in_true_color.jpg/600px-Mercury_in_true_color.jpg" alt="Merkur"></div>
+      <p class="planet-name">Merkur</p>
+    </div>
+
+    <div class="planet-card" id="btn-venus">
+      <div class="planet-img-wrap"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Venus-real_color.jpg/600px-Venus-real_color.jpg" alt="Venus"></div>
+      <p class="planet-name">Venus</p>
+    </div>
+
+    <div class="planet-card" id="btn-jorden">
+      <div class="planet-img-wrap"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/600px-The_Earth_seen_from_Apollo_17.jpg" alt="Jorden"></div>
+      <p class="planet-name">Jorden</p>
+    </div>
+
+    <div class="planet-card" id="btn-mars">
+      <div class="planet-img-wrap"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OSIRIS_Mars_true_color.jpg/600px-OSIRIS_Mars_true_color.jpg" alt="Mars"></div>
+      <p class="planet-name">Mars</p>
+    </div>
+
+    <div class="planet-card" id="btn-jupiter">
+      <div class="planet-img-wrap"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg/600px-Jupiter_and_its_shrunken_Great_Red_Spot.jpg" alt="Jupiter"></div>
+      <p class="planet-name">Jupiter</p>
+    </div>
+
+    <div class="planet-card" id="btn-saturn">
+      <div class="planet-img-wrap"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/600px-Saturn_during_Equinox.jpg" alt="Saturn"></div>
+      <p class="planet-name">Saturn</p>
+    </div>
+
+    <div class="planet-card" id="btn-uranus">
+      <div class="planet-img-wrap"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Uranus2.jpg/600px-Uranus2.jpg" alt="Uranus"></div>
+      <p class="planet-name">Uranus</p>
+    </div>
+
+    <div class="planet-card" id="btn-neptun">
+      <div class="planet-img-wrap"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg/600px-Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg" alt="Neptun"></div>
+      <p class="planet-name">Neptun</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="stats-section">
+  <div class="section-label">RASKE FAKTA</div>
+  <div class="card-container">
+    <div class="fakta-card">
+      <h2 class="fakta-title">8</h2>
+      <p class="fakta-text">Planeter i solsystemet</p>
+    </div>
+    <div class="fakta-card">
+      <h2 class="fakta-title">4.6×10<sup>9</sup></h2>
+      <p class="fakta-text">År gammelt</p>
+    </div>
+    <div class="fakta-card">
+      <h2 class="fakta-title">200+</h2>
+      <p class="fakta-text">Kjente måner</p>
+    </div>
+    <div class="fakta-card">
+      <h2 class="fakta-title">99.86%</h2>
+      <p class="fakta-text">Av massen er i solen</p>
+    </div>
+  </div>
+</section>
+
+<script src="./script.js"></script>
 </body>
-
 </html>
