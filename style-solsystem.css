@@ -193,7 +193,7 @@ a:hover {
   width: 140px;
   height: 140px;
   border-radius: 50%;
-  filter: drop-shadow(0 0 20px rgba(255, 200, 50, 0.7));
+  box-shadow: 0 0 50px rgba(255, 200, 50, 0.7);
 }
 
 .sun-card .planet-name {
